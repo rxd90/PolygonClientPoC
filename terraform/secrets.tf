@@ -10,8 +10,7 @@ resource "aws_secretsmanager_secret_version" "dockerhub_credentials_version" {
   # Putting the "secret" in Secrets Manager. Also, change the password in the console!
   secret_string = jsonencode({
     username = "ricard0"
-    #password = "XXXXX" # WARNING - Manual Overwrite in console required.
-    password = "dckr_pat_PM5IYQL4bBw_F4PAY78gxYFBFTo"
+    password = "XXXXX" # WARNING - Manual Overwrite in console required.
   })
 }
 
