@@ -1,4 +1,4 @@
-## TrustWallet
+## TrustWallet Polygon Client PoC
 
 This is a simple blockchain client written in Go. It interacts with the Ethereum blockchain via the Polygon RPC endpoint. The application exposes APIs to get the current block number and fetch block details by block number. The service is deployed on AWS ECS Fargate and is accessible via both a direct IP and an Application Load Balancer (ALB).
 
