@@ -1,0 +1,58 @@
+# Binaries
+trustwallet
+
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Go specific
+#############
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.log
+
+# Output of the 'go test' command
+*.cover
+
+# Temporary build directories
+bin/
+pkg/
+build/
+
+# Vendor directory
+vendor/
+
+# Goland specific
+.idea/
+
+# Terraform specific
+#####################
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore generated plan files
+*.tfplan
+
+# Ignore crash log files
+crash.log
+
+# Ignore extension directories
+.terraform/
+.terraform.lock.hcl
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore the .terraformrc & terraform.rc files
+.terraformrc
+terraform.rc
